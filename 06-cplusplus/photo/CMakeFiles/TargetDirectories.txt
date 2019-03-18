@@ -1,0 +1,3 @@
+/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/photo/CMakeFiles/rebuild_cache.dir
+/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/photo/CMakeFiles/photo.dir
+/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/photo/CMakeFiles/edit_cache.dir

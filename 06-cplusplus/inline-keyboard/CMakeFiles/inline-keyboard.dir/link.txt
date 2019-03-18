@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall  -rdynamic CMakeFiles/inline-keyboard.dir/src/main.cpp.o  -o inline-keyboard /usr/local/lib/libTgBot.a -lpthread -lssl -lcrypto -lboost_system -lcurl 

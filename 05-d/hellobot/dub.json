@@ -1,0 +1,12 @@
+{
+	"name": "hellobot",
+	"authors": [
+		"niko"
+	],
+	"dependencies": {
+		"telega": "~>0.0.3"
+	},
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, niko",
+	"license": "proprietary"
+}

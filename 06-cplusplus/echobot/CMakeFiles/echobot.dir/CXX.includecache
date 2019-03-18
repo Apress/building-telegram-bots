@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/src/main.cpp
+csignal
+-
+cstdio
+-
+cstdlib
+-
+exception
+-
+tgbot/tgbot.h
+-
+

@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": 
+        [
+          {
+            "label": "letsgo",
+            "command": "go",
+            "args": [
+              "run",
+              "${file}",
+              "10"
+            ],
+            "options": {
+              "cwd": "${workspaceRoot}"
+            },
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            }
+          }
+        ]
+      }

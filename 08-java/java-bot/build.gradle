@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava {
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile  'com.github.pengrad:java-telegram-bot-api:4.1.0'
+    compile 'com.sparkjava:spark-core:2.2'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'io.reactivex:rxjava:1.0.16'
+}
+
+apply plugin: 'application'
+mainClassName = "com.hellonico.Simple"

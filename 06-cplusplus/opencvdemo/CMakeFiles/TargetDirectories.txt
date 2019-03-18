@@ -1,0 +1,3 @@
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/rebuild_cache.dir
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/opencvdemo.dir
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/edit_cache.dir

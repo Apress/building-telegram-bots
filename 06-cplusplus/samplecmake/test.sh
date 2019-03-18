@@ -1,0 +1,1 @@
+./samplecmake http://stuffpoint.com/cats/image/245258-cats-cute-white-cat.jpg

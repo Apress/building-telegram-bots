@@ -1,0 +1,26 @@
+[package]
+name = "bots"
+version = "0.1.0"
+authors = ["hellonico@gmail.com>"]
+
+[dependencies]
+telegram-bot = "0.6"
+tokio-core = "0.1.17"
+futures = "0.1.23"
+
+[[bin]]
+name = "bot1"
+path = "src/bot1.rs"
+
+[[bin]]
+name = "bot2"
+path = "src/bot2.rs"
+
+[[bin]]
+name = "bot3"
+path = "src/bot3.rs"
+
+
+[[bin]]
+name = "bot4"
+path = "src/bot4.rs"

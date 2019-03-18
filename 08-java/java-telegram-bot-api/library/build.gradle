@@ -1,0 +1,42 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+compileTestJava {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'nl.jqno.equalsverifier:equalsverifier:2.3'
+    testCompile 'org.reflections:reflections:0.9.11'
+}
+
+jacoco {
+    // See https://github.com/jacoco/jacoco/releases
+    toolVersion = '0.7.5.201505241946'
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        csv.enabled true
+        html.destination "${buildDir}/reports/jacoco/test"
+    }
+}
+
+task fatJar(type: Jar) {
+    baseName = rootProject.name + '-full'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')

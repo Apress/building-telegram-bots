@@ -1,0 +1,10 @@
+/build
+
+# Files containing secret/personnal values
+auth.key
+dc.save
+config.properties
+
+# Downloaded files...
+*.jpg
+*.webp

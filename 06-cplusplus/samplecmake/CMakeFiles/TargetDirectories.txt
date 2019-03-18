@@ -1,0 +1,3 @@
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/samplecmake/CMakeFiles/rebuild_cache.dir
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/samplecmake/CMakeFiles/samplecmake.dir
+/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/samplecmake/CMakeFiles/edit_cache.dir

@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile project(':api')
+
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'commons-io:commons-io:2.5'
+    compile 'commons-codec:commons-codec:1.10'
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+}

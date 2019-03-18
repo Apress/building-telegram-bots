@@ -1,0 +1,13 @@
+{
+    "name": "@runkit/hellonico_mykoa-bot",
+    "version": "0.0.0-master",
+    "main": "./lib/mykoa-bot",
+    "dependencies": {
+        "koa-body": "4.0.4",
+        "koa": "2.5.3",
+        "telegraf": "3.24.0"
+    },
+    "scripts": {
+        "install": "node scripts/install.js"
+    }
+}

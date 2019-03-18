@@ -1,0 +1,17 @@
+name: HELLO
+version: 0.1.0
+
+authors:
+  - Nicolas Modrzyk <nico@karabiner-software.com>
+
+targets:
+  HELLO:
+    main: src/HELLO.cr
+
+crystal: 0.25.1
+
+license: MIT
+
+dependencies:
+  telegram_bot:
+    github: hangyas/telegram_bot

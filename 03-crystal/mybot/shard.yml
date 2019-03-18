@@ -1,0 +1,17 @@
+name: mybot
+version: 0.1.0
+
+authors:
+  - Nicolas Modrzyk <nico@karabiner-software.com>
+
+targets:
+  mybot:
+    main: src/mybot.cr
+
+crystal: 0.26.1
+
+license: MIT
+
+dependencies:
+  telegram_bot:
+    github: hangyas/telegram_bot

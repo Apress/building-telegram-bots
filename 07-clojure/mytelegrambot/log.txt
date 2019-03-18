@@ -1,0 +1,32 @@
+{:message_id 693,
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :chat
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537580161,
+ :text "yes"}
+{:message_id 695,
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :chat
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537580304,
+ :text "yes"}

@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    compile 'com.fasterxml.jackson.core:jackson-core:2.2.3'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.2.3'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.2.3'
+
+    compile 'com.squareup:javapoet:1.7.0'
+}
+
+/*task fatJar(type: Jar) {
+    group = "build"
+    description = "Generate a jar including all dependencies"
+    manifest {
+        attributes("Main-Class": "com.github.badoualy.telegram.tl.builder.MainKt",
+                   "Application-Name": "Kotlogram TL-Builder",
+                   "Specification-Title": "Kotlogram TL-Builder",
+                   "Implementation-Title": "com.github.badoualy.telegram.tl.builder",
+                   "Implementation-Version": version)
+    }
+    baseName = "kotlogram-$project.name"
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}*/

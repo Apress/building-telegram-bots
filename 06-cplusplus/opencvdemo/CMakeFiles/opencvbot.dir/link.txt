@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall  -rdynamic CMakeFiles/opencvbot.dir/src/main.cpp.o  -o opencvbot -Wl,-rpath,/usr/local/lib64 /usr/local/lib64/libopencv_core.so /usr/local/lib64/libopencv_imgcodecs.so /usr/local/lib64/libopencv_highgui.so /usr/local/lib/libTgBot.a -lpthread -lssl -lcrypto -lboost_system -lcurl 

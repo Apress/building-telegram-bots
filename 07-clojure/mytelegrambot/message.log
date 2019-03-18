@@ -1,0 +1,435 @@
+{:id "523312006375609225",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312008593253184",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:id "523312007253421823",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemon",
+ :offset ""}
+{:id "523312008225328005",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312008427324138",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:id "523312008682408313",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemon",
+ :offset ""}
+{:id "523312005989234195",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312007395711280",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:id "523312007871004416",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemo",
+ :offset ""}
+{:id "523312005989234195",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+nil
+{{:message_id:id 705,
+  "523312007395711280",
+ :from
+ {:id 121843071,
+  :from
+ :is_bot false,
+{  :id 121843071,
+  :first_name "Nico",:is_bot
+   false,
+  :first_name ":last_nameNico", "Nico",
+  
+  :username:last_name "Nico", "hel
+lo  nico",
+  :username:language_code "en-JP" }",hellonico
+" ,
+  :language_code "en-JP"},
+ :query "l",
+ :offset "":chat}
+
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537581887,
+ :text "@chapter01bot lemon",
+ :entities [{:offset 0, :length 13, :type "mention"}]}
+{:id "523312007871004416",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemo",
+ :offset ""}
+{:id "523312006098462962",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+nil
+{:id "523312008044786820",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:message_id 705,
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :chat
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537581887,
+ :text "@chapter01bot lemon",
+ :entities [{:offset 0, :length 13, :type "mention"}]}
+{:id "523312007549336077",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemon",
+ :offset ""}
+{:id "523312006098462962",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312005988455801",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemon",
+ :offset ""}
+{:id "523312008044786820",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:id "523312006903087273",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemon",
+ :offset ""}
+{:id "523312008936110369",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312006948432497",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312007283119901",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "sure",
+ :offset ""}
+{:id "523312008938427170",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "sure",
+ :offset ""}
+{:id "523312006242292123",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312008759425653",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "l",
+ :offset ""}
+{:id "523312008369572490",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "lemo",
+ :offset ""}
+{:id "523312008938865651",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312005589388986",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312008440389276",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "helo",
+ :offset ""}
+{:id "523312009212658250",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312005967159586",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+{:id "523312008738248278",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "hello",
+ :offset ""}
+{:id "523312008252523316",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "hello",
+ :offset ""}
+{:id "523312008959361010",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "hello",
+ :offset ""}
+{:id "523312007445563687",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "hello",
+ :offset ""}
+{:id "523312006577028632",
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :query "",
+ :offset ""}
+nil
+{:message_id 708,
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :chat
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537582945,
+ :animation
+ {:file_name "lemonslede.gif.mp4",
+  :mime_type "video/mp4",
+  :duration 1,
+  :width 320,
+  :height 182,
+  :thumb
+  {:file_id "AAQEABMj0L4aAARN5-NQ4nuNHE0_AAIC",
+   :file_size 1323,
+   :width 90,
+   :height 51},
+  :file_id "CgADBAADLgAD4jA0UZSaIEdMw25hAg",
+  :file_size 19568},
+ :document
+ {:file_name "lemonslede.gif.mp4",
+  :mime_type "video/mp4",
+  :thumb
+  {:file_id "AAQEABMj0L4aAARN5-NQ4nuNHE0_AAIC",
+   :file_size 1323,
+   :width 90,
+   :height 51},
+  :file_id "CgADBAADLgAD4jA0UZSaIEdMw25hAg",
+  :file_size 19568}}

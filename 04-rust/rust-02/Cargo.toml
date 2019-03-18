@@ -1,0 +1,7 @@
+[package]
+name = "rust-02"
+version = "0.1.0"
+authors = ["Nicolas Modrzyk <nico@karabiner-software.com>"]
+
+[dependencies]
+chrono = "0.4.6"

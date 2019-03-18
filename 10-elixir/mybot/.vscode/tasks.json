@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": 
+        [
+          {
+            "label": "elixir",
+            "command": "mix",
+            "args": [
+              "run",
+              "${file}"
+            ],
+            "options": {
+              "cwd": "${workspaceRoot}"
+            },
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            }
+          }
+        ]
+      }

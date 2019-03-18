@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": 
+        [
+            {
+                "label": "main1",
+                "command": "cargo",
+                "args": [
+                    "run",
+                    "--bin",
+                    "main1"
+                ],
+                "options": {
+                    "cwd": "${workspaceRoot}"
+                },
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            },
+            {
+                "label": "main2",
+                "command": "cargo",
+                "args": [
+                    "run",
+                    "--bin",
+                    "main2"
+                ],
+                "options": {
+                    "cwd": "${workspaceRoot}"
+                },
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+        ]
+    }

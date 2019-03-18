@@ -1,0 +1,1 @@
+curl "https://api.telegram.org/file/bot585672177:AAHswpmdA2zP52ZWoJMdteGa0xQ8KeynWvE/AgADBQADYKgxG9JKEFVUIc34m2czgR-j1jIABAcRlYfYTioAAQxQAgABAg" -o saved.jpg

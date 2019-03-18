@@ -1,0 +1,40 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    testCompile 'org.testng:testng:6.9.10'
+    testCompile 'org.reflections:reflections:0.9.10'
+    testCompile 'org.apache.commons:commons-lang3:3.4'
+    testCompile 'com.google.code.gson:gson:2.7'
+    testCompile 'commons-io:commons-io:2.5'
+    testCompile 'commons-codec:commons-codec:1.10'
+}
+
+test {
+    useTestNG()
+    testLogging.showStandardStreams = true
+}
+
+tasks.withType(Test) {
+    scanForTestClasses = false
+    include "**/*Test.class"
+}
+
+task fatJar(type: Jar) {
+    group = "build"
+    description = "Generate a jar including all dependencies"
+    manifest {
+        attributes("Application-Name": "Kotlogram TL",
+                   "Specification-Title": "Kotlogram TL",
+                   "Implementation-Title": "com.github.badoualy.telegram.tl",
+                   "Implementation-Version": version)
+    }
+    baseName = "kotlogram-$project.name"
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

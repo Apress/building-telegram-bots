@@ -1,0 +1,16 @@
+{:message_id 689,
+ :from
+ {:id 121843071,
+  :is_bot false,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :language_code "en-JP"},
+ :chat
+ {:id 121843071,
+  :first_name "Nico",
+  :last_name "Nico",
+  :username "hellonico",
+  :type "private"},
+ :date 1537576759,
+ :text "yes"}

@@ -1,0 +1,6 @@
+[package]
+name = "bot-02"
+version = "0.1.0"
+authors = ["Nicolas Modrzyk <nico@karabiner-software.com>"]
+
+[dependencies]

@@ -1,0 +1,16 @@
+{"compile":[
+]
+],
+"link":[
+"/Users/niko/Desktop/APRESS/withnim/nimcache/regexping.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_system.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_re.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_pcre.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_strutils.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_rtarrays.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_parseutils.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_math.o",
+"/Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_algorithm.o"
+],
+"linkcmd": "clang   -o /Users/niko/Desktop/APRESS/withnim/regexping  /Users/niko/Desktop/APRESS/withnim/nimcache/regexping.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_system.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_re.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_pcre.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_strutils.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_rtarrays.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_parseutils.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_math.o /Users/niko/Desktop/APRESS/withnim/nimcache/stdlib_algorithm.o  -lm   -ldl"
+}

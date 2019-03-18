@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+hellobot.so
+hellobot.dylib
+hellobot.dll
+hellobot.a
+hellobot.lib
+hellobot-test-*
+*.exe
+*.o
+*.obj
+*.lst

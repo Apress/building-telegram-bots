@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall  -rdynamic CMakeFiles/samplecmake.dir/src/main.cpp.o  -o samplecmake -lpthread -lssl -lcrypto -lboost_system -lcurl 

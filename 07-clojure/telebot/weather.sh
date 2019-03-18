@@ -1,0 +1,1 @@
+http "http://api.openweathermap.org/data/2.5/weather?q=$1&units=metric&APPID=9220dd1ac43dcaf7091d8c07a8a46efb"

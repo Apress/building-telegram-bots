@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": 
+        [
+            {
+                "label": "bot1",
+                "command": "cargo",
+                "args": [
+                    "run",
+                    "--bin",
+                    "bot1"
+                ],
+                "options": {
+                    "cwd": "${workspaceRoot}"
+                },
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": []
+            },
+            {
+                "label": "bot2",
+                "command": "cargo",
+                "args": [
+                    "run",
+                    "--bin",
+                    "bot2"
+                ],
+                "options": {
+                    "cwd": "${workspaceRoot}"
+                },
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": []
+            }
+        ]
+    }

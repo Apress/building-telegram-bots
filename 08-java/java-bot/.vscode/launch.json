@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Invoice",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.hellonico.Invoice",
+            "args": "",
+            "projectName": "java-bot"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.hellonico.Main",
+            "args": "",
+            "projectName": "java-bot"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Simple",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.hellonico.Simple",
+            "args": "",
+            "projectName": "java-bot"
+        }
+    ]
+}

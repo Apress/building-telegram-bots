@@ -1,0 +1,9 @@
+{"compile":[
+["/Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/hello.c", "clang -c  -w  -I/Users/niko/projects/homebrew/Cellar/nim/0.18.0_1/nim/lib -o /Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/hello.o /Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/hello.c"]
+],
+"link":[
+"/Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/hello.o",
+"/Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/stdlib_system.o"
+],
+"linkcmd": "clang   -o /Users/niko/Dropbox/BOOKS2/APRESS/02-nim/hello  /Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/hello.o /Users/niko/Dropbox/BOOKS2/APRESS/02-nim/nimcache/stdlib_system.o    -ldl"
+}

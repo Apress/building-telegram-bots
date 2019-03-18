@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'kotlin'
+apply plugin: 'maven'
+
+sourceCompatibility = '1.7'
+targetCompatibility = '1.7'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':mtproto')
+}
+
+task fatJar(type: Jar) {
+    group = "build"
+    description = "Generate a jar including all dependencies"
+    manifest {
+        attributes("Application-Name": "Kotlogram API",
+                   "Specification-Title": "Kotlogram API",
+                   "Implementation-Title": "com.github.badoualy.telegram.api",
+                   "Implementation-Version": version)
+    }
+    baseName = "kotlogram-$project.name"
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

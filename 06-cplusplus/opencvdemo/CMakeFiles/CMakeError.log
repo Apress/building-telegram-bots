@@ -1,0 +1,204 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19d4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19d4f.dir/build.make CMakeFiles/cmTC_19d4f.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d4f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19d4f.dir/CheckSymbolExists.c.o   -c /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_19d4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d4f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19d4f.dir/CheckSymbolExists.c.o  -o cmTC_19d4f 
+/usr/bin/ld: CMakeFiles/cmTC_19d4f.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_19d4f.dir/build.make:87: cmTC_19d4f] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_19d4f/fast] Error 2
+
+File /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9838/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9838.dir/build.make CMakeFiles/cmTC_b9838.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9838.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b9838.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9838.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b9838.dir/CheckFunctionExists.c.o  -o cmTC_b9838 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b9838.dir/build.make:87: cmTC_b9838] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/echobot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b9838/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8036/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8036.dir/build.make CMakeFiles/cmTC_c8036.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8036.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8036.dir/CheckSymbolExists.c.o   -c /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c8036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8036.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c8036.dir/CheckSymbolExists.c.o  -o cmTC_c8036 
+/usr/bin/ld: CMakeFiles/cmTC_c8036.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c8036.dir/build.make:87: cmTC_c8036] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c8036/fast] Error 2
+
+File /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fcb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fcb6.dir/build.make CMakeFiles/cmTC_3fcb6.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fcb6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3fcb6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3fcb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fcb6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3fcb6.dir/CheckFunctionExists.c.o  -o cmTC_3fcb6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3fcb6.dir/build.make:87: cmTC_3fcb6] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/RESEARCH/tgbot-cpp/samples/opencvbot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3fcb6/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84aac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84aac.dir/build.make CMakeFiles/cmTC_84aac.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84aac.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_84aac.dir/CheckSymbolExists.c.o   -c /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_84aac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84aac.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_84aac.dir/CheckSymbolExists.c.o  -o cmTC_84aac 
+/usr/bin/ld: CMakeFiles/cmTC_84aac.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_84aac.dir/build.make:87: cmTC_84aac] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_84aac/fast] Error 2
+
+File /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e738e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e738e.dir/build.make CMakeFiles/cmTC_e738e.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e738e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e738e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e738e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e738e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e738e.dir/CheckFunctionExists.c.o  -o cmTC_e738e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e738e.dir/build.make:87: cmTC_e738e] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvbot/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e738e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc6fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc6fc.dir/build.make CMakeFiles/cmTC_dc6fc.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc6fc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dc6fc.dir/CheckSymbolExists.c.o   -c /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dc6fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc6fc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dc6fc.dir/CheckSymbolExists.c.o  -o cmTC_dc6fc 
+/usr/bin/ld: CMakeFiles/cmTC_dc6fc.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dc6fc.dir/build.make:87: cmTC_dc6fc] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dc6fc/fast] Error 2
+
+File /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39e60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39e60.dir/build.make CMakeFiles/cmTC_39e60.dir/build
+make[1]: Entering directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39e60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39e60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_39e60.dir/CheckFunctionExists.c.o  -o cmTC_39e60 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_39e60.dir/build.make:87: cmTC_39e60] Error 1
+make[1]: Leaving directory '/home/niko/Dropbox/BOOKS2/APRESS/06-cplusplus/opencvdemo/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_39e60/fast] Error 2
+
+

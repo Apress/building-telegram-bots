@@ -1,0 +1,1 @@
+make && rm -f saved.jpg && ./opencvdemo cat.jpg
